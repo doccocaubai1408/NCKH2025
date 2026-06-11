@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "schema_version": 3,
+    "updated_at": "2026-05-03T14:05:42"
+  },
+  "contexts": {
+    "NORMAL__dark005__edge010__NA": {
+      "context": {
+        "light": "NORMAL",
+        "dark_q": 5,
+        "edge_q": 10,
+        "pin_bin": "NA"
+      },
+      "models": {
+        "TFLITE_INT8": {
+          "quality_score": 0.20238095238095238,
+          "current_A": null,
+          "infer_calls": 21,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.3923076923076923,
+            "LOW": 0.3923076923076923,
+            "MID": 0.7038461538461539,
+            "HIGH": 0.7038461538461539,
+            "NA": 0.7038461538461539
+          }
+        },
+        "TFLITE_FP16": {
+          "quality_score": 0.15789473684210525,
+          "current_A": null,
+          "infer_calls": 20,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.30843741924369017,
+            "LOW": 0.30843741924369017,
+            "MID": 0.5481609096390732,
+            "HIGH": 0.5481609096390732,
+            "NA": 0.5481609096390732
+          }
+        },
+        "TFLITE_FP32": {
+          "quality_score": 0.1375,
+          "current_A": null,
+          "infer_calls": 22,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.24162029459901802,
+            "LOW": 0.24162029459901802,
+            "MID": 0.4295090016366613,
+            "HIGH": 0.4295090016366613,
+            "NA": 0.4295090016366613
+          }
+        },
+        "ONNX_FP16": {
+          "quality_score": 0.09253246753246752,
+          "current_A": null,
+          "infer_calls": 16,
+          "samples": 2,
+          "score_cache": {
+            "CRIT": 0.21441005802707927,
+            "LOW": 0.21441005802707927,
+            "MID": 0.3680851063829787,
+            "HIGH": 0.3680851063829787,
+            "NA": 0.3680851063829787
+          }
+        },
+        "ONNX_FP32": {
+          "quality_score": 0.0625,
+          "current_A": null,
+          "infer_calls": 16,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.15,
+            "LOW": 0.15,
+            "MID": 0.25,
+            "HIGH": 0.25,
+            "NA": 0.25
+          }
+        },
+        "NCNN_FP16": {
+          "quality_score": 0.16071428571428573,
+          "current_A": null,
+          "infer_calls": 28,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.22217675941080198,
+            "LOW": 0.22217675941080198,
+            "MID": 0.40540098199672675,
+            "HIGH": 0.40540098199672675,
+            "NA": 0.40540098199672675
+          }
+        },
+        "NCNN_FP32": {
+          "quality_score": 0.16379310344827586,
+          "current_A": null,
+          "infer_calls": 29,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.2172413793103448,
+            "LOW": 0.2172413793103448,
+            "MID": 0.3982758620689655,
+            "HIGH": 0.3982758620689655,
+            "NA": 0.3982758620689655
+          }
+        }
+      }
+    },
+    "NORMAL__dark000__edge010__NA": {
+      "context": {
+        "light": "NORMAL",
+        "dark_q": 0,
+        "edge_q": 10,
+        "pin_bin": "NA"
+      },
+      "models": {
+        "TFLITE_INT8": {
+          "quality_score": 0.1388888888888889,
+          "current_A": null,
+          "infer_calls": 19,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.2168067226890757,
+            "LOW": 0.2168067226890757,
+            "MID": 0.38277310924369756,
+            "HIGH": 0.38277310924369756,
+            "NA": 0.38277310924369756
+          }
+        },
+        "TFLITE_FP16": {
+          "quality_score": 0.15,
+          "current_A": null,
+          "infer_calls": 20,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.31084033613445367,
+            "LOW": 0.31084033613445367,
+            "MID": 0.5566386554621847,
+            "HIGH": 0.5566386554621847,
+            "NA": 0.5566386554621847
+          }
+        },
+        "TFLITE_FP32": {
+          "quality_score": 0.125,
+          "current_A": null,
+          "infer_calls": 20,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.07941176470588235,
+            "LOW": 0.07941176470588235,
+            "MID": 0.1323529411764706,
+            "HIGH": 0.1323529411764706,
+            "NA": 0.1323529411764706
+          }
+        },
+        "ONNX_FP16": {
+          "quality_score": 0.125,
+          "current_A": null,
+          "infer_calls": 24,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.04411764705882352,
+            "LOW": 0.04411764705882352,
+            "MID": 0.07352941176470587,
+            "HIGH": 0.07352941176470587,
+            "NA": 0.07352941176470587
+          }
+        },
+        "ONNX_FP32": {
+          "quality_score": 0.1294642857142857,
+          "current_A": null,
+          "infer_calls": 12,
+          "samples": 2,
+          "score_cache": {
+            "CRIT": 0.19132653061224475,
+            "LOW": 0.19132653061224475,
+            "MID": 0.3257653061224487,
+            "HIGH": 0.3257653061224487,
+            "NA": 0.3257653061224487
+          }
+        },
+        "NCNN_FP16": {
+          "quality_score": 0.1574074074074074,
+          "current_A": null,
+          "infer_calls": 27,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.3176470588235294,
+            "LOW": 0.3176470588235294,
+            "MID": 0.5794117647058824,
+            "HIGH": 0.5794117647058824,
+            "NA": 0.5794117647058824
+          }
+        },
+        "NCNN_FP32": {
+          "quality_score": 0.15517241379310345,
+          "current_A": null,
+          "infer_calls": 29,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.2793103448275862,
+            "LOW": 0.2793103448275862,
+            "MID": 0.5120689655172415,
+            "HIGH": 0.5120689655172415,
+            "NA": 0.5120689655172415
+          }
+        }
+      }
+    }
+  }
+}

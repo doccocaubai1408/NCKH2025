@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "schema_version": 3,
+    "updated_at": "2026-05-04T18:51:36"
+  },
+  "contexts": {
+    "BRIGHT__dark000__edge005__HIGH": {
+      "context": {
+        "light": "BRIGHT",
+        "dark_q": 0,
+        "edge_q": 5,
+        "pin_bin": "HIGH"
+      },
+      "models": {
+        "TFLITE_INT8": {
+          "quality_score": 0.0,
+          "current_A": 1.495,
+          "infer_calls": 17,
+          "samples": 2,
+          "score_cache": {
+            "CRIT": 0.13392857142857142,
+            "LOW": 0.13392857142857142,
+            "MID": 0.22321428571428573,
+            "HIGH": 0.22321428571428573,
+            "NA": 0.22321428571428573
+          }
+        },
+        "TFLITE_FP16": {
+          "quality_score": 0.0,
+          "current_A": 1.5325000000000002,
+          "infer_calls": 14,
+          "samples": 2,
+          "score_cache": {
+            "CRIT": 0.2506097560975613,
+            "LOW": 0.2506097560975613,
+            "MID": 0.2865853658536587,
+            "HIGH": 0.2865853658536587,
+            "NA": 0.2865853658536587
+          }
+        },
+        "TFLITE_FP32": {
+          "quality_score": 0.0,
+          "current_A": 1.54,
+          "infer_calls": 20,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.23858885017421594,
+            "LOW": 0.23858885017421594,
+            "MID": 0.24033101045296162,
+            "HIGH": 0.24033101045296162,
+            "NA": 0.24033101045296162
+          }
+        },
+        "ONNX_FP16": {
+          "quality_score": 0.0,
+          "current_A": 1.61,
+          "infer_calls": 21,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.42103658536585387,
+            "LOW": 0.42103658536585387,
+            "MID": 0.2996951219512196,
+            "HIGH": 0.2996951219512196,
+            "NA": 0.2996951219512196
+          }
+        },
+        "ONNX_FP32": {
+          "quality_score": 0.0,
+          "current_A": 1.7,
+          "infer_calls": 19,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.6732142857142858,
+            "LOW": 0.6732142857142858,
+            "MID": 0.40535714285714286,
+            "HIGH": 0.40535714285714286,
+            "NA": 0.40535714285714286
+          }
+        },
+        "NCNN_FP16": {
+          "quality_score": 0.0,
+          "current_A": 1.565,
+          "infer_calls": 38,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.20923344947735165,
+            "LOW": 0.20923344947735165,
+            "MID": 0.10400696864111489,
+            "HIGH": 0.10400696864111489,
+            "NA": 0.10400696864111489
+          }
+        },
+        "NCNN_FP32": {
+          "quality_score": 0.0,
+          "current_A": 1.51,
+          "infer_calls": 42,
+          "samples": 1,
+          "score_cache": {
+            "CRIT": 0.04024390243902416,
+            "LOW": 0.04024390243902416,
+            "MID": 0.01463414634146333,
+            "HIGH": 0.01463414634146333,
+            "NA": 0.01463414634146333
+          }
+        }
+      }
+    }
+  }
+}

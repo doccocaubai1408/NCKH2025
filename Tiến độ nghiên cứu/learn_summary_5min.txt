@@ -1,0 +1,19 @@
+learn summary
+=============
+elapsed_sec: 1800.18
+window_sec: 1800.00
+learn_count: 1
+active_learn_duration_sec: 56.955732
+active_ratio: 0.031639
+avg_learn_duration_sec: 56.955732
+total_infer_calls: 182
+total_cpu_machine_percent_sec: 3794.500000
+total_cpu_total_percent_sec: 15178.000000
+avg_cpu_machine_percent_active: 66.62
+avg_cpu_total_percent_active: 266.49
+avg_cpu_machine_percent_whole_window: 2.11
+avg_cpu_total_percent_whole_window: 8.43
+total_current_A_sec: 87.869802
+avg_current_A_active: 1.542774
+avg_current_A_whole_window: 0.048812
+log_file: learn_log_5min.csv

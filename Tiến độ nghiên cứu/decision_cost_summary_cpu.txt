@@ -1,0 +1,26 @@
+decision cost benchmark with CPU
+================================
+logic: score_cache_fast_path
+runs: 1000
+batch_size: 100
+cpu_cores: 4
+total_wall_sec: 0.009164182
+total_cpu_time_sec: 0.000000000
+avg_decision_duration_ms: 0.007568276
+median_decision_duration_ms: 0.008213000
+p95_decision_duration_ms: 0.009907050
+p99_decision_duration_ms: 0.011759741
+min_decision_duration_ms: 0.005037000
+max_decision_duration_ms: 0.073555000
+cpu_total_percent: 0.000000
+cpu_machine_percent: 0.000000
+avg_batch_cpu_total_percent: 0.000000
+avg_batch_cpu_machine_percent: 0.000000
+exact_count: 500
+nearest_count: 500
+fallback_count: 0
+fast_score_cache_count: 1000
+slow_score_fallback_count: 0
+model_fallback_count: 0
+csv_file: decision_cost_benchmark_cpu.csv
+batch_csv_file: decision_cost_benchmark_cpu_batches.csv

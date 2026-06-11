@@ -1,0 +1,2 @@
+time,learn_index,context_id,context_light,context_dark_q,context_edge_q,context_pin_bin,learn_duration_sec,model_count,models_done,avg_cpu_machine_percent,avg_cpu_total_percent,avg_current_A,total_infer_calls
+2026-05-04 18:18:39,1,BRIGHT__dark000__edge005__HIGH,BRIGHT,0,5,HIGH,56.955732,7,TFLITE_INT8|TFLITE_FP16|TFLITE_FP32|ONNX_FP16|ONNX_FP32|NCNN_FP16|NCNN_FP32,66.62,266.49,1.542774,182
